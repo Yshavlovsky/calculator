@@ -27,7 +27,7 @@ user-select: none;
 
 .btn:hover {
     filter: brightness(120%);
-}
+    }
 
 .btn:active {
     filter: brightness(90%);
@@ -38,7 +38,7 @@ background: grey;
 }
 
 .btn.btn.bg-orange {
-    background: green;
+    background: orange;
 }
 
 .buttons {
@@ -56,6 +56,21 @@ grid-gap: 7px;
 
 .btn.zero {
     grid-area: zero;
-    width: 100%;
-    border-radius: 50px;
-}
+  width: 100%;
+  border-radius: 34px;
+  }
+
+  .calc-screen {
+    height: 125px;
+    padding: 10px;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    margin-bottom: 25;
+  }
+
+    .calc-screen p {
+        text-align: right;
+        font-size: 4rem;
+        margin: 0;}
+    
